@@ -121,9 +121,10 @@ Then:
 3) What steps did you take to try and increase model performance?
    **I took the below steps:**
   > Instead of dropping both the `EIN` and `Name` columns, only the `EIN` column was dropped. However, only the names which appeared more than 5 times were considered.
+
   > Added a 3rd Activation Layer to the model in the following order to boost the accuracy to > 75%:
 
-   My Layers:
+  > My Layers:
     First Layer `tanh`
     Second Layer `relu`
     Third Layer `relu`
